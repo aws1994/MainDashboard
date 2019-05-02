@@ -51,7 +51,7 @@ public class DashboardFrag extends Fragment {
      * @return A new instance of fragment DashboardFrag.
      */
     // TODO: Rename and change types and number of parameters
-    public static DashboardFrag newInstance(String param1, String param2) {
+      public static DashboardFrag newInstance(String param1, String param2) {
         DashboardFrag fragment = new DashboardFrag();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
@@ -79,6 +79,7 @@ public class DashboardFrag extends Fragment {
         cardRight = v.findViewById(R.id.cardRight);
         cardLeft = v.findViewById(R.id.cardLeft);
         cardLeft2 = v.findViewById(R.id.cardLeft2) ;
+
         // ini Animations
 
         Animation animeBottomToTop = AnimationUtils.loadAnimation(getActivity(),R.anim.anime_bottom_to_top);

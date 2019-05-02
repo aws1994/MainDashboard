@@ -3,4 +3,6 @@
     <color name="colorPrimary">#fff</color>
     <color name="colorPrimaryDark">#ffffff</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="bgcolor">#f2f3f7</color>
+    <color name="icon_tint_color">#6a6c6c</color>
 </resources>
